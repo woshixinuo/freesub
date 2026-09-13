@@ -4,12 +4,18 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇪🇸 西班牙 (Spain) 01 - xiaohe",
-      "server": "108.181.121.226",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "WSyL4XTwNsdv"
+      "server": "172.64.158.146",
+      "server_port": 8880,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
     },
     {
       "type": "shadowsocks",
@@ -30,7 +36,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -40,13 +46,22 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇪🇸 西班牙 (Spain) 04 - xiaohe",
+      "server": "108.181.121.226",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "WSyL4XTwNsdv"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇪🇸 西班牙 (Spain) 01 - xiaohe",
         "🇪🇸 西班牙 (Spain) 02 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 03 - xiaohe"
+        "🇪🇸 西班牙 (Spain) 03 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 04 - xiaohe"
       ]
     },
     {
@@ -55,7 +70,8 @@
       "outbounds": [
         "🇪🇸 西班牙 (Spain) 01 - xiaohe",
         "🇪🇸 西班牙 (Spain) 02 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 03 - xiaohe"
+        "🇪🇸 西班牙 (Spain) 03 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
