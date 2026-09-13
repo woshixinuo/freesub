@@ -6,17 +6,6 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-      "server": "185.87.24.2",
-      "server_port": 2085,
-      "uuid": "a1d1b142-17c5-4472-99de-df220df4d4fb",
-      "transport": {
-        "type": "grpc",
-        "service_name": "vless"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
       "server": "156.67.63.231",
       "server_port": 443,
       "uuid": "b052df40-d51c-456c-9bd6-57af01a87e4e",
@@ -37,46 +26,26 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
-      "server": "45.74.159.233",
-      "server_port": 56659,
-      "uuid": "12af43c3-84b4-4248-878b-b75f35835487",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+      "server": "170.168.97.8",
+      "server_port": 8443,
+      "uuid": "4350213a-b4e7-262a-0bd7-bd16957cf71a",
       "tls": {
         "enabled": true,
-        "server_name": "amp-api-edge.apps.apple.com",
+        "server_name": "download.nvidia.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "qLggZ7qospn6X7UEO1zSoohNXK4Y1EX7Hx2sJeWfvw0",
-          "short_id": "9aa3a3f599f3d5d0"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
-      "server": "162.159.91.222",
-      "server_port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-723a643df685",
-      "tls": {
-        "enabled": true,
-        "server_name": "n3zaxce7u0es.crzl48eiuses.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+          "public_key": "D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs",
+          "short_id": ""
         }
       },
       "transport": {
-        "type": "ws",
-        "path": "/stream/PANEL_ZEUS/723a643df685/loc-0",
-        "headers": {
-          "Host": "n3zaxce7u0es.crzl48eiuses.workers.dev"
-        }
+        "type": "grpc",
+        "service_name": "TunService"
       }
     },
     {
@@ -85,9 +54,7 @@
       "outbounds": [
         "auto",
         "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 04 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
       ]
     },
     {
@@ -95,9 +62,7 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 04 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -5,18 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - xiaohe
-  server: 144.31.7.182
-  port: 443
+  server: 65.109.215.118
+  port: 1080
   udp: true
-  type: vless
-  uuid: becd3b04-62a8-4b74-be67-be746008b4c2
-  tls: true
-  servername: cdn-582.spliceflowtech.com
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: rSeYcig_XBy8q3k33NpK3A
 proxy-groups:
 - name: PROXIES
   type: select
