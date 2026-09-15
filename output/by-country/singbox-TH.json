@@ -4,29 +4,26 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - xiaohe",
-      "server": "189.74.97.47",
-      "server_port": 2087,
-      "uuid": "894fe9f0-b998-49c0-8003-a5007de921e1",
-      "transport": {
-        "type": "ws",
-        "path": "/755276b33b6f"
-      }
+      "type": "vmess",
+      "tag": "🇹🇭 泰国 (Thailand) 01 - xiaohe",
+      "server": "119.46.51.45",
+      "server_port": 37515,
+      "uuid": "9b76bc31-17a5-4454-934a-8d5fb602cd70",
+      "security": "auto"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - xiaohe"
+        "🇹🇭 泰国 (Thailand) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - xiaohe"
+        "🇹🇭 泰国 (Thailand) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
