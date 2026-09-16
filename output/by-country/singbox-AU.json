@@ -12,12 +12,27 @@
       "security": "auto"
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
-      "server": "ww11.levikogjgfdd.ir",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto"
+      "server": "104.18.155.229",
+      "server_port": 443,
+      "uuid": "42026ed0-7d74-4585-8e46-0fe6aa4d665a",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.genflix.co.id.r3xxe.eu.cc",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/au-do",
+        "headers": {
+          "Host": "www.genflix.co.id.r3xxe.eu.cc"
+        }
+      }
     },
     {
       "type": "vless",
@@ -31,35 +46,14 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 04 - xiaohe",
-      "server": "au1.gsafevpnapi.com",
-      "server_port": 20270,
-      "uuid": "bd0b6458-917b-4b84-9c21-66b8699f4795",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE",
-          "short_id": "e6a5a4a9115456de"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 05 - xiaohe",
+      "tag": "🇦🇺 澳大利亚 (Australia) 04 - xiaohe",
       "server": "vpn-au-002.fastervpn.world",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "css.rbxcdn.com",
+        "server_name": "www.bing.com",
         "insecure": true
       }
     },
@@ -71,8 +65,7 @@
         "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 04 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 05 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 04 - xiaohe"
       ]
     },
     {
@@ -82,8 +75,7 @@
         "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 04 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 05 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
