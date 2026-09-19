@@ -47,14 +47,14 @@
       "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
       "server": "31.58.181.88",
       "server_port": 8443,
-      "uuid": "4a64b0c2-de7e-4e32-b931-247be6dc4488",
+      "uuid": "d0da19f1-fb05-488e-99c2-262389b3537b",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "tradingview.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,

@@ -32,13 +32,13 @@ proxies:
   port: 8443
   udp: true
   type: vless
-  uuid: 4a64b0c2-de7e-4e32-b931-247be6dc4488
+  uuid: d0da19f1-fb05-488e-99c2-262389b3537b
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
   servername: tradingview.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
   server: 85.204.107.177
   port: 8080
