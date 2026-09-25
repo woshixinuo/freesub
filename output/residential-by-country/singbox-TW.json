@@ -14,7 +14,7 @@
     {
       "type": "vmess",
       "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
-      "server": "24864168545164.oylfmxz.cn",
+      "server": "61.223.124.196",
       "server_port": 443,
       "uuid": "d90e4077-bc7e-414d-a650-70bf1baae4d6",
       "security": "auto",
@@ -25,7 +25,10 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/"
+        "path": "/",
+        "headers": {
+          "Host": "24864168545164.oylfmxz.cn"
+        }
       }
     },
     {
