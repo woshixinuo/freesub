@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: nlll.gaz-service.shop
+  server: 195.133.66.229
   port: 443
   udp: true
   type: vless
@@ -14,7 +14,7 @@ proxies:
   reality-opts:
     public-key: Zl6Fe6WYQuaFe_QNUB4qU7nRkGujy7LqjoQ96GO3jUc
   servername: nlll.gaz-service.shop
-  client-fingerprint: ''
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
