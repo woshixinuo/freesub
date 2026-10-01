@@ -27,9 +27,9 @@ proxies:
   reality-opts:
     public-key: ll7JTP628PuBMZJvx6fuhGSmCRSURnReAetmhCEL8GU
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇮🇩 印尼 (Indonesia) 03 - xiaohe
-  server: 188.114.97.6
+  server: 104.18.32.87
   port: 443
   udp: true
   type: trojan
